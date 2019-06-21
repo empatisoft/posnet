@@ -101,8 +101,8 @@ class Payment {
          */
         if($transaction == true) {
             $result = array(
-                'success' => false,
-                'message' => 'Hata oluştu',
+                'success' => true,
+                'message' => 'Başarılı',
                 'data_1' => $oos->GetData1(),
                 'data_2' => $oos->GetData2(),
                 'response' => $oos->GetResponseXMLData(),
